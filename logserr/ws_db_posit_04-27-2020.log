@@ -1,0 +1,114 @@
+fn_registrar_encuestas
+Valores de entrada
+{ array: [] }
+Valores de salida
+error: syntax error at end of input
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 91,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '91',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1142',
+  routine: 'scanner_yyerror'
+}
+fn_registrar_encuestas
+Valores de entrada
+{
+  array: [
+    {
+      nombre: 'Carlos',
+      apellido1: 'Larios',
+      apellido2: 'Perez',
+      id_sexo: 1,
+      curp: 'LAPC971215HCMRRR02',
+      fecha_nacimiento: '12/15/97',
+      fecha_creacion_persona: '27/04/2020 15:05:08',
+      id_lugar: 1825,
+      cve_asenta_dom: '0825',
+      cve_municipio_dom: '010',
+      cve_estado_dom: '06',
+      calle_dom: 'Mimosa Dorada',
+      num_ext_dom: '980',
+      num_int_dom: '',
+      grado: null,
+      grupo: null,
+      fecha_creacion_dom: '27/04/2020 15:05:08',
+      cve_asenta_lugar: '0276',
+      cve_municipio_lugar: '006',
+      cve_estado_lugar: '06',
+      nombre_lugar: 'CAPA'
+    },
+    {
+      nombre: 'Jose Ezequiel',
+      apellido1: 'Valencia',
+      apellido2: 'Preciado',
+      id_sexo: 1,
+      curp: 'VAPE960127HDFRLZ08',
+      fecha_nacimiento: '04/27/20',
+      fecha_creacion_persona: '27/04/2020 15:07:11',
+      id_lugar: 881,
+      cve_asenta_dom: '0420',
+      cve_municipio_dom: '010',
+      cve_estado_dom: '06',
+      calle_dom: 'Caxitlan',
+      num_ext_dom: '365',
+      num_int_dom: '',
+      grado: 3,
+      grupo: 'D',
+      fecha_creacion_dom: '27/04/2020 15:07:11',
+      cve_asenta_lugar: '0033',
+      cve_municipio_lugar: '002',
+      cve_estado_lugar: '06',
+      nombre_lugar: null
+    }
+  ]
+}
+Valores de salida
+error: column "undefined" does not exist
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 109,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '91',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+}
+

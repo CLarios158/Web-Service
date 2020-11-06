@@ -1,0 +1,104 @@
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: undefined,
+  cve_municipio_lugar: undefined,
+  cve_asenta_lugar: undefined,
+  lugar: undefined,
+  calle_lugar: undefined,
+  num_ext_lugar: undefined,
+  num_int_lugar: undefined,
+  nombre: 'Carlos',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '04/24/20',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: value too long for type character(4)
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 705,
+  severity: 'ERROR',
+  code: '22001',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'SQL statement "INSERT INTO lugar(cve_asenta,cve_municipio,cve_estado,nombre_lugar,calle,num_ext,num_int,fecha_creacion)\n' +
+    '\t\tVALUES (cve_asenta_lugar_in,cve_municipio_lugar_in,cve_estado_lugar_in,lugar_in,calle_lugar_in,num_ext_lugar_in,num_int_lugar_in,NOW())\n' +
+    '\t\tRETURNING id_lugar"\n' +
+    'PL/pgSQL function fn_registrar_encuesta(character,character,character,character varying,character varying,character varying,character varying,character varying,character varying,character varying,character varying,integer,date,character,character,character,character varying,character varying,character varying) line 7 at SQL statement',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'varchar.c',
+  line: '312',
+  routine: 'bpchar'
+}
+fn_registrar_encuesta_escuela
+Valores de entrada
+{
+  id_lugar: undefined,
+  grado: 5,
+  grupo: 'E',
+  nombre: 'Carlos',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '04/24/20',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: column "undefined" does not exist
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 109,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '45',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+}
+

@@ -1,0 +1,532 @@
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: date/time field value out of range: "12/15/97"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 168,
+  severity: 'ERROR',
+  code: '22008',
+  detail: undefined,
+  hint: 'Perhaps you need a different "datestyle" setting.',
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3755',
+  routine: 'DateTimeParseError'
+}
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: date/time field value out of range: "12/15/97"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 168,
+  severity: 'ERROR',
+  code: '22008',
+  detail: undefined,
+  hint: 'Perhaps you need a different "datestyle" setting.',
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3755',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '003',
+  cve_asenta_domicilio: '0845',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: date/time field value out of range: "12/15/97"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 168,
+  severity: 'ERROR',
+  code: '22008',
+  detail: undefined,
+  hint: 'Perhaps you need a different "datestyle" setting.',
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3755',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '005',
+  cve_asenta_domicilio: '0799',
+  calle_domicilio: 'Mimosa',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: date/time field value out of range: "12/15/97"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 168,
+  severity: 'ERROR',
+  code: '22008',
+  detail: undefined,
+  hint: 'Perhaps you need a different "datestyle" setting.',
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3755',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '005',
+  cve_asenta_domicilio: '0233',
+  calle_domicilio: 'Mimosa',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: time zone "gmt-0600" not recognized
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 101,
+  severity: 'ERROR',
+  code: '22023',
+  detail: undefined,
+  hint: undefined,
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '910',
+  routine: 'DecodeDateTime'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Estebab',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/97',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '005',
+  cve_asenta_domicilio: '0222',
+  calle_domicilio: 'Mimosa',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: invalid input syntax for type date: "function getDay() { [native code] }function getMonth() { [native code] }function getFullYear() { [native code] }"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 221,
+  severity: 'ERROR',
+  code: '22007',
+  detail: undefined,
+  hint: undefined,
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3774',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Esteban',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/95',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: invalid input syntax for type date: "function getDay() { [native code] }function getMonth() { [native code] }function getFullYear() { [native code] }"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 221,
+  severity: 'ERROR',
+  code: '22007',
+  detail: undefined,
+  hint: undefined,
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3774',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Esteban',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/95',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: invalid input syntax for type date: "function getDay() { [native code] }function getMonth() { [native code] }function getFullYear() { [native code] }"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 221,
+  severity: 'ERROR',
+  code: '22007',
+  detail: undefined,
+  hint: undefined,
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3774',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Esteban',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/95',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: invalid input syntax for type date: "function getDay() { [native code] }function getMonth() { [native code] }function getFullYear() { [native code] }"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 221,
+  severity: 'ERROR',
+  code: '22007',
+  detail: undefined,
+  hint: undefined,
+  position: '135',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'datetime.c',
+  line: '3774',
+  routine: 'DateTimeParseError'
+}
+
+fn_registrar_encuesta
+Valores de entrada
+{
+  cve_estado_lugar: '06',
+  cve_municipio_lugar: '010',
+  cve_asenta_lugar: '0389',
+  lugar: 'TEC',
+  calle_lugar: 'Narvo',
+  num_ext_lugar: '766',
+  num_int_lugar: '',
+  nombre: 'Carlos Esteban',
+  apellido1: 'Larios',
+  apellido2: 'Perez',
+  curp: 'LAPC971215HCMRRR02',
+  id_sexo: 1,
+  fecha_nacimiento: '12/15/95',
+  cve_estado_domicilio: '06',
+  cve_municipio_domicilio: '010',
+  cve_asenta_domicilio: '0825',
+  calle_domicilio: 'Mimosa Dorada',
+  num_ext_domicilio: '980',
+  num_int_domicilio: ''
+}
+Valores de salida
+error: null value in column "id_encuesta" violates not-null constraint
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 988,
+  severity: 'ERROR',
+  code: '23502',
+  detail: 'Failing row contains (null, 1796, null, 0825, 010, 06, Mimosa Dorada, 980, , null, null, 2020-03-25, 2020-03-25 23:55:11.825399-06, null).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'SQL statement "INSERT INTO encuesta(id_lugar,id_persona,cve_asenta,cve_municipio,cve_estado,calle,num_ext,num_int,fecha,fecha_creacion)\n' +
+    '\t\tVALUES(return_id_lugar,return_id_persona,cve_asenta_domicilio_in,cve_municipio_domicilio_in,cve_estado_domicilio_in,calle_domicilio_in,num_ext_domicilio_in,num_int_domicilio_in,NOW(),NOW())\n' +
+    '\t\tRETURNING id_encuesta"\n' +
+    'PL/pgSQL function fn_registrar_encuesta(character,character,character,character varying,character varying,character varying,character varying,character varying,character varying,character varying,character varying,integer,date,character,character,character,character varying,character varying,character varying) line 15 at SQL statement',
+  schema: 'public',
+  table: 'encuesta',
+  column: 'id_encuesta',
+  dataType: undefined,
+  constraint: undefined,
+  file: 'execMain.c',
+  line: '1974',
+  routine: 'ExecConstraints'
+}
+

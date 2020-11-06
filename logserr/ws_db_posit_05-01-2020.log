@@ -1,0 +1,391 @@
+fn_registrar_encuestas
+Valores de entrada
+{
+  encuestas: {
+    persona: [ [Object] ],
+    lugar: [ [Object] ],
+    encuesta: [ [Object] ],
+    respuesta: [],
+    historial_respuesta: []
+  }
+}
+Valores de salida
+error: value too long for type character varying(1)
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 935,
+  severity: 'ERROR',
+  code: '22001',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'SQL statement "INSERT INTO encuesta(id_lugar,id_persona,cve_asenta,cve_municipio,cve_estado,calle,num_ext,num_int,fecha_creacion,grado,grupo)\n' +
+    '\t\t\tVALUES(id_lugar_in,return_id_persona,cve_asenta_domicilio_in,cve_municipio_domicilio_in,cve_estado_domicilio_in,calle_domicilio_in,num_ext_domicilio_in,num_int_domicilio_in,fecha_creacion_encuesta_in,grado_in,grupo_in)\n' +
+    '\t\t\tRETURNING id_encuesta"\n' +
+    'PL/pgSQL function fn_registrar_encuestas(character varying,character varying,character varying,integer,character varying,date,timestamp with time zone,integer,character varying,character varying,character varying,character varying,character,character,character,timestamp with time zone,character varying,integer,character varying,character varying,character varying,character,character,character,timestamp with time zone) line 13 at SQL statement',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'varchar.c',
+  line: '636',
+  routine: 'varchar'
+}
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [],
+    persona: {
+      nombre: 'Carlos Esteban',
+      apellido1: 'Larios',
+      apellido2: 'Perez',
+      id_sexo: 1,
+      curp: 'LAPC971215HCMRRR02',
+      fecha_nacimiento: '15/12/1997',
+      fecha_creacion: '29/04/2020 15:42:31'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 1825,
+      id_persona: 1,
+      grado: null,
+      grupo: null,
+      cve_asenta: '0825',
+      cve_municipio: '010',
+      cve_estado: '06',
+      calle: 'Mimosa Dorada',
+      num_ext: '580',
+      num_int: '',
+      fecha_creacion: '29/04/2020 15:42:31'
+    },
+    lugar: {
+      id_lugar: 1825,
+      nombre_lugar: 'CAPA',
+      cve_asenta: '0283',
+      cve_municipio: '006',
+      cve_estado: '06',
+      calle: 'Desconocido',
+      num_ext: '580',
+      num_int: '',
+      fecha_creacion: '29/04/2020 15:42:31'
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [],
+    persona: {
+      nombre: 'Carlos Esteban',
+      apellido1: 'Larios',
+      apellido2: 'Perez',
+      id_sexo: 1,
+      curp: 'LAPC971215HCMRRR02',
+      fecha_nacimiento: '15/12/1997',
+      fecha_creacion: '29/04/2020 15:42:31'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 1825,
+      id_persona: 1,
+      grado: null,
+      grupo: null,
+      cve_asenta: '0825',
+      cve_municipio: '010',
+      cve_estado: '06',
+      calle: 'Mimosa Dorada',
+      num_ext: '580',
+      num_int: '',
+      fecha_creacion: '29/04/2020 15:42:31'
+    },
+    lugar: {
+      id_lugar: 1825,
+      nombre_lugar: 'CAPA',
+      cve_asenta: '0283',
+      cve_municipio: '006',
+      cve_estado: '06',
+      calle: 'Desconocido',
+      num_ext: '580',
+      num_int: '',
+      fecha_creacion: '29/04/2020 15:42:31'
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [],
+    persona: {
+      nombre: 'Kevin Fernando',
+      apellido1: 'Medina',
+      apellido2: 'Larios',
+      id_sexo: 1,
+      curp: 'LAME971215HCMRTD02',
+      fecha_nacimiento: '7/09/1998',
+      fecha_creacion: '1/05/2020 16:09:25'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 1826,
+      id_persona: 1,
+      grado: '',
+      grupo: '',
+      cve_asenta: '0068',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Pino Suarez',
+      num_ext: '261',
+      num_int: '',
+      fecha_creacion: '1/05/2020 16:09:25'
+    },
+    lugar: {
+      id_lugar: 1826,
+      nombre_lugar: 'CENTRO DE ADICCIONES',
+      cve_asenta: '0761',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Malga',
+      num_ext: '658',
+      num_int: '',
+      fecha_creacion: '1/05/2020 16:09:25'
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    persona: {
+      nombre: 'Kevin Fernando',
+      apellido1: 'Medina',
+      apellido2: 'Larios',
+      id_sexo: 1,
+      curp: 'LAME971215HCMRTD02',
+      fecha_nacimiento: '1/05/2020',
+      fecha_creacion: '1/05/2020 16:19:12'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 1826,
+      id_persona: 1,
+      grado: null,
+      grupo: '',
+      cve_asenta: '0068',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Pino Suarez',
+      num_ext: '265',
+      num_int: '',
+      fecha_creacion: '1/05/2020 16:19:12'
+    },
+    lugar: {
+      id_lugar: 1826,
+      nombre_lugar: 'CENTRO DE ADICCION',
+      cve_asenta: '0057',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Centro',
+      num_ext: '320',
+      num_int: '',
+      fecha_creacion: '1/05/2020 16:19:12'
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    persona: {
+      nombre: 'Carlos Esteban',
+      apellido1: 'Larios',
+      apellido2: 'Perez',
+      id_sexo: 1,
+      curp: 'LAPC971215HCMRRR02',
+      fecha_nacimiento: '15/12/1997',
+      fecha_creacion: '1/05/2020 17:00:19'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 881,
+      id_persona: 1,
+      grado: 3,
+      grupo: 'C',
+      cve_asenta: '0825',
+      cve_municipio: '010',
+      cve_estado: '06',
+      calle: 'Mimosa Dorada',
+      num_ext: '980',
+      num_int: '',
+      fecha_creacion: '1/05/2020 17:00:19'
+    },
+    lugar: {
+      id_lugar: 881,
+      nombre_lugar: null,
+      cve_asenta: '0033',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Avenida De Los Maestros',
+      num_ext: '175',
+      num_int: null,
+      fecha_creacion: null
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+
+sp_consultar_cat_sexo
+Valores de entrada
+{
+  encuestas: {
+    respuesta: [ [Object], [Object], [Object], [Object], [Object] ],
+    historial_respuesta: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    persona: {
+      nombre: 'Juan Carlos',
+      apellido1: 'Larios',
+      apellido2: 'Beltran',
+      id_sexo: 1,
+      curp: 'BELJ971215HCMRRR03',
+      fecha_nacimiento: '1/05/2020',
+      fecha_creacion: '1/05/2020 17:17:40'
+    },
+    encuesta: {
+      id_encuesta: 1,
+      id_lugar: 881,
+      id_persona: 1,
+      grado: 4,
+      grupo: 'C',
+      cve_asenta: '0068',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Centeo',
+      num_ext: '520',
+      num_int: '',
+      fecha_creacion: '1/05/2020 17:17:40'
+    },
+    lugar: {
+      id_lugar: 881,
+      nombre_lugar: null,
+      cve_asenta: '0033',
+      cve_municipio: '002',
+      cve_estado: '06',
+      calle: 'Avenida De Los Maestros',
+      num_ext: '175',
+      num_int: null,
+      fecha_creacion: '2020-03-03T20:45:09.344Z'
+    }
+  }
+}
+Valores de salida
+Error: Cannot use a pool after calling end on the pool
+    at Pool.connect (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:167:19)
+    at Pool.query (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:289:10)
+    at getCatalogoSexo (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:116:10)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/router/index.js:275:10)
+

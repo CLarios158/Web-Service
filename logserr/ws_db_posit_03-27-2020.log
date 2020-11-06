@@ -1,0 +1,3314 @@
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:575:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:575:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:575:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:575:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near "?"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near "?"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near "?"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near ","
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 49, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: true }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: true }
+  ]
+}
+Valores de salida
+error: syntax error at or near "?"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: true }
+  ]
+}
+Valores de salida
+error: syntax error at or near "?"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: true }
+  ]
+}
+Valores de salida
+error: syntax error at or near ","
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: true }
+  ]
+}
+Valores de salida
+error: syntax error at or near ")"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '67',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: column "undefined" does not exist
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 109,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '43',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3359',
+  routine: 'errorMissingColumn'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 0
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: cannot open INSERT query as cursor
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 192,
+  severity: 'ERROR',
+  code: '42P11',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: 'PL/pgSQL function fn_registrar_respuestas(integer,integer,boolean) line 5 at RETURN QUERY',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'spi.c',
+  line: '1341',
+  routine: 'SPI_cursor_open_internal'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+TypeError: callback is not a function
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:573:25
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+TypeError: callback is not a function
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:585:21
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 44, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: true }
+  ]
+}
+Valores de salida
+error: bind message supplies 5 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{ array: [ { id_encuesta: 1, id_pregunta: 7, respuesta: true } ] }
+Valores de salida
+error: bind message supplies 1 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{ array: [ { id_encuesta: 1, id_pregunta: 7, respuesta: true } ] }
+Valores de salida
+error: there is no parameter $1
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 94,
+  severity: 'ERROR',
+  code: '42P02',
+  detail: undefined,
+  hint: undefined,
+  position: '66',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_expr.c',
+  line: '901',
+  routine: 'transformParamRef'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{ array: [ { id_encuesta: 1, id_pregunta: 7, respuesta: true } ] }
+Valores de salida
+error: syntax error at or near "["
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '66',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{ array: [ { id_encuesta: 1, id_pregunta: 7, respuesta: true } ] }
+Valores de salida
+error: syntax error at or near "["
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '66',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{ array: [ { id_encuesta: 1, id_pregunta: 7, respuesta: true } ] }
+Valores de salida
+error: syntax error at or near "["
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 90,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '66',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/express/lib/response.js:267:15)
+    at /Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/queries.js:572:46
+    at Query.callback (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg-pool/index.js:300:18)
+    at Query.handleReadyForQuery (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:125:10)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:227:19)
+    at Connection.emit (events.js:209:13)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more expressions than target columns
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '76',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '917',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more expressions than target columns
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '76',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '917',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more expressions than target columns
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '76',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '917',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error: Query values must be an array
+    at Query.submit (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:156:12)
+    at Client._pulseQueryQueue (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:418:43)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:229:10)
+    at Connection.emit (events.js:214:15)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error: Query values must be an array
+    at Query.submit (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:156:12)
+    at Client._pulseQueryQueue (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:418:43)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:229:10)
+    at Connection.emit (events.js:214:15)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error: Query values must be an array
+    at Query.submit (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:156:12)
+    at Client._pulseQueryQueue (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:418:43)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:229:10)
+    at Connection.emit (events.js:214:15)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: bind message supplies 4 parameters, but prepared statement "" requires 3
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 137,
+  severity: 'ERROR',
+  code: '08P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '1668',
+  routine: 'exec_bind_message'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more expressions than target columns
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '75',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '917',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+Error: Query values must be an array
+    at Query.submit (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/query.js:156:12)
+    at Client._pulseQueryQueue (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:418:43)
+    at Connection.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/client.js:229:10)
+    at Connection.emit (events.js:214:15)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:126:12)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: INSERT has more target columns than expressions
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 115,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '35',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '939',
+  routine: 'transformInsertRow'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 22, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: false }
+  ]
+}
+Valores de salida
+error: syntax error at or near "'(1,22,false),(1,70,false),(1,8,true),(1,37,false)'"
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 140,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '65',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1150',
+  routine: 'scanner_yyerror'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 13, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 73, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 31, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 41, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 6, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 21, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 15, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 17, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 51, respuesta: false }
+  ]
+}
+Valores de salida
+error: function truenow() does not exist
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 202,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No function matches the given name and argument types. You might need to add explicit type casts.',
+  position: '71',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_func.c',
+  line: '631',
+  routine: 'ParseFuncOrColumn'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 13, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 73, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 31, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 41, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 6, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 21, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 15, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 17, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 51, respuesta: false }
+  ]
+}
+Valores de salida
+error: function truenow() does not exist
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 202,
+  severity: 'ERROR',
+  code: '42883',
+  detail: undefined,
+  hint: 'No function matches the given name and argument types. You might need to add explicit type casts.',
+  position: '86',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_func.c',
+  line: '631',
+  routine: 'ParseFuncOrColumn'
+}
+
+fn_registrar_respuestas
+Valores de entrada
+{
+  array: [
+    { id_encuesta: 1, id_pregunta: 3, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 51, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 20, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 48, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 24, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 33, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 19, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 75, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 13, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 60, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 50, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 35, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 23, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 17, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 62, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 12, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 9, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 27, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 40, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 81, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 49, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 44, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 71, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 8, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 43, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 37, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 73, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 18, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 2, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 55, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 25, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 5, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 64, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 66, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 65, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 31, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 29, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 41, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 28, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 39, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 42, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 36, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 45, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 70, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 72, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 26, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 63, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 15, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 69, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 68, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 67, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 7, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 56, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 32, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 74, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 38, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 53, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 14, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 22, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 77, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 79, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 54, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 11, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 6, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 78, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 30, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 61, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 1, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 57, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 16, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 46, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 21, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 58, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 59, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 76, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 47, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 34, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 10, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 80, respuesta: false },
+    { id_encuesta: 1, id_pregunta: 52, respuesta: true },
+    { id_encuesta: 1, id_pregunta: 4, respuesta: false }
+  ]
+}
+Valores de salida
+error: cannot pass more than 100 arguments to a function
+    at Connection.parseE (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:602:11)
+    at Connection.parseMessage (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:399:19)
+    at Socket.<anonymous> (/Users/carloslarios/Documents/Proyectos/POSIT/Posit-WS/node_modules/pg/lib/connection.js:121:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'error',
+  length: 119,
+  severity: 'ERROR',
+  code: '54023',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_func.c',
+  line: '140',
+  routine: 'ParseFuncOrColumn'
+}
+
